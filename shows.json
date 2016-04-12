@@ -5,7 +5,10 @@
 		"band": "Beach House",
 		"date": "04-18",
 		"attendees": {
-			"0": true
+			"0": true,
+			"1": true,
+			"2": true,
+			"3": true
 		}
 
 	}, {
@@ -21,42 +24,66 @@
 		"id": 2,
 		"venue": "Crystal Ballroom",
 		"band": "Silversun Pickups",
-		"date": "05-11"
+		"date": "05-11",
+		"attendees": {
+			"1": true
+		}
 
 	}, {
 		"id": 3,
 		"venue": "Wonder Ballroom",
 		"band": "Bob Mould",
-		"date": "06-07"
+		"date": "06-07",
+		"attendees": {
+			"1": true,
+			"2": true,
+			"3": true
+		}
 
 	}, {
 		"id": 4,
 		"venue": "Wonder Ballroom",
 		"band": "Nada Surf",
-		"date": "05-19"
-
+		"date": "05-19",
+		"attendees": {
+			"1": true,
+			"2": true
+		}
 	}, {
 		"id": 5,
 		"venue": "Wonder Ballroom",
 		"band": "Yeasayer",
-		"date": "05-29"
+		"date": "05-29",
+		"attendees": {
+			"3": true
+		}
 
 	}, {
+		"id": 6,
 		"venue": "Doug Fir",
 		"band": "Black Mountain",
 		"date": "04-23"
 
 	}, {
+		"id": 7,
 		"venue": "Doug Fir",
 		"band": "Bleached",
-		"date": "04-30"
+		"date": "04-30",
+		"attendees": {
+			"2": true
+		}
 
 	}, {
+		"id": 8,
 		"venue": "Roseland",
 		"band": "Purity Ring",
-		"date": "05-27"
+		"date": "05-27",
+		"attendees": {
+			"3": true
+		}
 
 	}, {
+		"id": 9,
 		"venue": "Roseland",
 		"band": "M83",
 		"date": "04-25"
@@ -71,5 +98,42 @@
 			"1": true
 		},
 		"active": "false"
+	},
+	{
+		"id": 1,
+		"name": "Marika",
+		"image": "https://scontent-lga3-1.xx.fbcdn.net/hphotos-xap1/v/t1.0-9/935932_10151488810788364_148003865_n.jpg?oh=d338a340881a48f1ea8798d96e8ae740&oe=57C04EEE",
+		"shows": {
+			"0": true,
+			"2": true,
+			"3": true,
+			"4": true
+		},
+		"active": "false"
+	},
+	{
+		"id": 2,
+		"name": "Blake",
+		"image": "https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/10422179_10203845986415596_7157061549570258425_n.jpg?oh=d0f4f7c5a3c5de65b08e1ed0810d4ed5&oe=57754905",
+		"shows": {
+			"0": true,
+			"3": true,
+			"4": true,
+			"7": true
+		},
+		"active": "false"
+	},
+	{
+		"id": 3,
+		"name": "Mike",
+		"image": "https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/12806223_10153321749251290_9119164828112813821_n.jpg?oh=75880c8d931a9281e6deab2b09fb4ce7&oe=5784BB08",
+		"shows": {
+			"0": true,
+			"3": true,
+			"5": true,
+			"8": true
+		},
+		"active": "false"
 	}]
+
 }
