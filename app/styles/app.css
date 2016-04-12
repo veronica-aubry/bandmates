@@ -8,6 +8,7 @@ body {
 
 a {
   color: #f4e7e7;
+  text-decoration: none !important;
 }
 
 footer {
@@ -28,6 +29,14 @@ footer {
 .jumbotron .container {
   position:relative;
   top:50px;
+}
+
+.post {
+  background-color: #1f2532;
+  border-radius: 20px;
+  padding: 15px;
+  margin: 5px;
+  max-width: 350px;
 }
 
 .matchTile img {
