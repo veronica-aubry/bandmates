@@ -1,4 +1,19 @@
-img .matchTile{
+body {
+  height: 100%;
+  font-family: monospace;
+}
+
+footer {
+  text-align: center;
+  margin-top: 150px;
+}
+
+.jumbotron {
+  margin-top: -20px;
+  text-align: center;
+}
+
+img .matchTile {
   width: 200px;
-  height: 200px; 
+  height: 200px;
 }
