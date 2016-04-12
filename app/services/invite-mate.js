@@ -5,5 +5,5 @@ export default Ember.Service.extend({
 
     add(bandmate) {
       this.get('bandmates').pushObject(bandmate);
-    }
-  });
+  }
+});
