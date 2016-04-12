@@ -1,9 +1,9 @@
 import Ember from 'ember';
 
 export default Ember.Service.extend({
-  bandmates: [],
+  bandMates: [],
 
-    add(bandmate) {
-      this.get('bandmates').pushObject(bandmate);
+    add(bandMate) {
+      this.get('bandMates').pushObject(bandMate);
   }
 });
