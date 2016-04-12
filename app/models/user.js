@@ -2,8 +2,7 @@ import Model from 'ember-data/model';
 
 export default Model.extend({
   name: DS.attr(),
-  image: DS.attr()
-  // bands: DS.attr(),
-  // shows: DS.hasMany('show', {async: true}),
-  // active: DS.attr()
+  image: DS.attr(),
+  shows: DS.hasMany('show', {async: true}),
+  active: DS.attr()
 });
