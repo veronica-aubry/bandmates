@@ -8,6 +8,7 @@ body {
 
 a {
   color: #f4e7e7;
+  text-decoration: none !important;
 }
 
 footer {
@@ -30,7 +31,15 @@ footer {
   top:50px;
 }
 
-img .matchTile {
-  width: 200px;
-  height: 200px;
+.post {
+  background-color: #1f2532;
+  border-radius: 20px;
+  padding: 15px;
+  margin: 5px;
+  max-width: 350px;
+}
+
+.matchTile img {
+  width: 150px;
+  height: 150px;
 }
