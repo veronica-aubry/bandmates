@@ -1,6 +1,13 @@
 body {
   height: 100%;
-  font-family: monospace;
+  font-family: 'Kreon', serif;
+  background-image: url("http://www.skotcher.com/wall/f300b886a001ea4237a18522a7f91d51/amp-amplifier-bw-knobs-macro.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+a {
+  color: #f4e7e7;
 }
 
 footer {
@@ -9,8 +16,18 @@ footer {
 }
 
 .jumbotron {
-  margin-top: -20px;
+	padding-top: 5px !important;
+  font-family: 'Permanent Marker', cursive;
+  background-image: url("https://feelgoodmusicent.files.wordpress.com/2013/05/concert-smoke-stage-audience-applause-the-darkness-banner.jpg");
   text-align: center;
+  height:250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron .container {
+  position:relative;
+  top:50px;
 }
 
 img .matchTile {

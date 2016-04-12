@@ -1,10 +1,17 @@
+<div class="jumbotron">
+  <div class="container">
+    <h1>Bandmates</h1>
+  </div>
+</div>
 <nav class="navbar navbar-default">
-  <h2>{{#link-to 'index'}}Bandmates{{/link-to}}</h2>
-  <div class="pull-right">
-    {{#link-to 'new'}}Sign Up{{/link-to}}
+  <div class="container-fluid">
+    <div class="navbar-header">
+    {{#link-to 'index'}}<a class="navbar-brand">Home</a>{{/link-to}}
+ 			{{#link-to 'new'}}<a class="navbar-brand">Sign-Up</a>{{/link-to}}
+    </div>
   </div>
 </nav>
-
+<div class="container">
 {{outlet}}
-
+</div>
 <footer>&#169; Veronica, Blake, Mike, and Marika</footer>
