@@ -6,11 +6,9 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function() {
-<<<<<<< HEAD
   this.route('newUser');
   this.route('user', {path: '/user/:user_id'});
-  this.route('show');
->>>>>>> 4a2ff8f24940d35471a8a710ade4266fc49c5617
+  this.route('show', {path: '/show/:show_id'});
 });
 
 export default Router;
