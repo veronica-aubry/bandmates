@@ -8,7 +8,8 @@
 			"0": true,
 			"1": true,
 			"2": true,
-			"3": true
+			"3": true,
+			"4": true
 		}
 
 	}, {
@@ -17,7 +18,8 @@
 		"band": "Santigold",
 		"date": "05-10",
 		"attendees": {
-			"0": true
+			"0": true,
+			"4": true
 		}
 
 	}, {
@@ -26,7 +28,8 @@
 		"band": "Silversun Pickups",
 		"date": "05-11",
 		"attendees": {
-			"1": true
+			"1": true,
+			"4": true
 		}
 
 	}, {
@@ -55,7 +58,8 @@
 		"band": "Yeasayer",
 		"date": "05-29",
 		"attendees": {
-			"3": true
+			"3": true,
+			"4": true
 		}
 
 	}, {
@@ -70,7 +74,8 @@
 		"band": "Bleached",
 		"date": "04-30",
 		"attendees": {
-			"2": true
+			"2": true,
+			"4": true
 		}
 
 	}, {
@@ -86,13 +91,16 @@
 		"id": 9,
 		"venue": "Roseland",
 		"band": "M83",
-		"date": "04-25"
+		"date": "04-25",
+		"attendees": {
+			"4": true
+		}
 	}],
 
 	"users": [{
 		"id": 0,
 		"name": "Veronica",
-		"image": "nope",
+		"image": "https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/12993581_10154182654404884_5013722575241502038_n.jpg?oh=1a21b2ae3e1335e199ddbdaa137a3eb0&oe=577EF64D",
 		"shows": {
 			"0": true,
 			"1": true
@@ -102,7 +110,7 @@
 	{
 		"id": 1,
 		"name": "Marika",
-		"image": "https://scontent-lga3-1.xx.fbcdn.net/hphotos-xap1/v/t1.0-9/935932_10151488810788364_148003865_n.jpg?oh=d338a340881a48f1ea8798d96e8ae740&oe=57C04EEE",
+		"image": "https://scontent-lga3-1.xx.fbcdn.net/hphotos-xfp1/v/t1.0-9/12642590_10153421771208364_854013912588248948_n.jpg?oh=66d799b5e14fb3e537dd9ba5a51718f7&oe=5777BC70",
 		"shows": {
 			"0": true,
 			"2": true,
@@ -132,6 +140,20 @@
 			"3": true,
 			"5": true,
 			"8": true
+		},
+		"active": "false"
+	},
+	{
+		"id": 4,
+		"name": "Michael <3",
+		"image": "https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/11000042_10153489142457590_3316666797086065600_n.jpg?oh=e03cf179048b8a4657127c093e44db05&oe=577DF582",
+		"shows": {
+			"0": true,
+			"1": true,
+			"2": true,
+			"5": true,
+			"7": true,
+			"9": true
 		},
 		"active": "false"
 	}]
