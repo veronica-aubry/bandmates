@@ -1,0 +1,5 @@
+<h2>Upcoming shows: </h2>
+
+{{#each show as |show|}}
+  <h2>{{#link-to 'show' show.id}} {{show.name}} {{/link-to}}</h2>
+{{/each}}
