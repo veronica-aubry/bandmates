@@ -6,6 +6,7 @@ export default Ember.Component.extend({
   actions: {
         addBandMate(answer) {
           this.get('inviteMate').add(answer);
+          this.transitionTo('inviteList');
         }
       }
   });
