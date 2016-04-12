@@ -1,0 +1,51 @@
+{ "shows": [{
+    "venue": "Crystal Ballroom",
+    "band": "Beach House",
+    "date": "04-18"
+
+  }, {
+    "venue": "Crystal Ballroom",
+    "band": "Santigold",
+    "date": "05-10"
+
+  }, {
+    "venue": "Crystal Ballroom",
+    "band": "Silversun Pickups",
+    "date": "05-11"
+
+      }, {
+    "venue": "Wonder Ballroom",
+    "band": "Bob Mould",
+    "date": "06-07"
+
+      }, {
+    "venue": "Wonder Ballroom",
+    "band": "Nada Surf",
+    "date": "05-19"
+
+      }, {
+    "venue": "Wonder Ballroom",
+    "band": "Yeasayer",
+    "date": "05-29"
+
+      }, {
+    "venue": "Doug Fir",
+    "band": "Black Mountain",
+    "date": "04-23"
+
+      }, {
+    "venue": "Doug Fir",
+    "band": "Bleached",
+    "date": "04-30"
+
+      }, {
+    "venue": "Roseland",
+    "band": "Purity Ring",
+    "date": "05-27"
+
+      }, {
+    "venue": "Roseland",
+    "band": "M83",
+    "date": "04-25"
+  }]
+}
