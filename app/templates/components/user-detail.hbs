@@ -1,0 +1,13 @@
+<div class="row">
+  <div class="col-sm-8">
+    <img src="{{user.image}}" alt="{{user.name}}" />
+  </div>
+  <div class="col-sm-4">
+    <h1>This is the user page for {{user.name}}</h1>
+
+    These are the shows that {{user.name}} has/will attend:
+    {{#each user.shows as |show|}}
+      <p>{{#link-to 'show' show.id}}{{show.band}} - {{show.date}}{{/link-to}}</p>
+    {{/each}}
+  </div>
+</div>
