@@ -1,3 +1,9 @@
 Show Details:
 
 {{show-detail show=model}}
+
+<hr/>
+
+{{#each model.attendees as |attendee|}}
+  {{match-tile match=attendee}}
+{{/each}}
