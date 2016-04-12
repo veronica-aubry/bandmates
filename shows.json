@@ -1,51 +1,75 @@
-{ "shows": [{
-    "venue": "Crystal Ballroom",
-    "band": "Beach House",
-    "date": "04-18"
+{
+	"shows": [{
+		"id": 0,
+		"venue": "Crystal Ballroom",
+		"band": "Beach House",
+		"date": "04-18",
+		"attendees": {
+			"0": true
+		}
 
-  }, {
-    "venue": "Crystal Ballroom",
-    "band": "Santigold",
-    "date": "05-10"
+	}, {
+		"id": 1,
+		"venue": "Crystal Ballroom",
+		"band": "Santigold",
+		"date": "05-10",
+		"attendees": {
+			"0": true
+		}
 
-  }, {
-    "venue": "Crystal Ballroom",
-    "band": "Silversun Pickups",
-    "date": "05-11"
+	}, {
+		"id": 2,
+		"venue": "Crystal Ballroom",
+		"band": "Silversun Pickups",
+		"date": "05-11"
 
-      }, {
-    "venue": "Wonder Ballroom",
-    "band": "Bob Mould",
-    "date": "06-07"
+	}, {
+		"id": 3,
+		"venue": "Wonder Ballroom",
+		"band": "Bob Mould",
+		"date": "06-07"
 
-      }, {
-    "venue": "Wonder Ballroom",
-    "band": "Nada Surf",
-    "date": "05-19"
+	}, {
+		"id": 4,
+		"venue": "Wonder Ballroom",
+		"band": "Nada Surf",
+		"date": "05-19"
 
-      }, {
-    "venue": "Wonder Ballroom",
-    "band": "Yeasayer",
-    "date": "05-29"
+	}, {
+		"id": 5,
+		"venue": "Wonder Ballroom",
+		"band": "Yeasayer",
+		"date": "05-29"
 
-      }, {
-    "venue": "Doug Fir",
-    "band": "Black Mountain",
-    "date": "04-23"
+	}, {
+		"venue": "Doug Fir",
+		"band": "Black Mountain",
+		"date": "04-23"
 
-      }, {
-    "venue": "Doug Fir",
-    "band": "Bleached",
-    "date": "04-30"
+	}, {
+		"venue": "Doug Fir",
+		"band": "Bleached",
+		"date": "04-30"
 
-      }, {
-    "venue": "Roseland",
-    "band": "Purity Ring",
-    "date": "05-27"
+	}, {
+		"venue": "Roseland",
+		"band": "Purity Ring",
+		"date": "05-27"
 
-      }, {
-    "venue": "Roseland",
-    "band": "M83",
-    "date": "04-25"
-  }]
+	}, {
+		"venue": "Roseland",
+		"band": "M83",
+		"date": "04-25"
+	}],
+
+	"users": [{
+		"id": 0,
+		"name": "Veronica",
+		"image": "nope",
+		"shows": {
+			"0": true,
+			"1": true
+		},
+		"active": "false"
+	}]
 }
