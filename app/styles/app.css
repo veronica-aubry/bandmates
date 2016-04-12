@@ -12,3 +12,8 @@ footer {
   margin-top: -20px;
   text-align: center;
 }
+
+img .matchTile {
+  width: 200px;
+  height: 200px;
+}
