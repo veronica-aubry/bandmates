@@ -4,9 +4,10 @@ export default Ember.Component.extend({
   inviteMate: Ember.inject.service(),
 
   actions: {
-    addBandMate(bandMate) {
-      this.get('inviteMate').add(bandMate);
-      this.transitionTo('invitePage');
+    addBandMate(user, show) {
+      // debugger;
+      this.get('inviteMate').add(user);
+      this.get('inviteMate').add(show);
     }
   }
 });
