@@ -11,6 +11,15 @@
     <div class="navbar-header">
       {{#link-to 'index'}}<a class="navbar-brand">HOME</a>{{/link-to}}
 			{{#link-to 'new'}}<a class="navbar-brand">SIGN-UP</a>{{/link-to}}
+
+      {{#if session.isAuthenticated}}
+         <button {{action 'logout'}}>Logout</button>
+      {{else}}
+         {{#link-to 'login'}}SIGN IN{{/link-to}}
+      {{/if}}
+
+      {{log session.currentUser}}
+
     </div>
     <div class="pull-right">
       {{#link-to 'admin'}}<a class="navbar-brand">Admin</a>{{/link-to}}
