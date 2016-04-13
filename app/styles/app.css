@@ -6,6 +6,10 @@ body {
   background-size: cover;
 }
 
+.light {
+  color: #cc0000;
+}
+
 a {
   color: #215c5c;
   text-decoration: none !important;
@@ -16,19 +20,26 @@ footer {
   margin-top: 150px;
 }
 
+.navbar-brand {
+  font-family: 'Montserrat', sans-serif;;
+  color: #cc0000 !important;
+}
+
+.navbar-brand:hover{
+  color: black !important;
+}
+
 .jumbotron {
-	padding-top: 5px !important;
   font-family: 'Permanent Marker', cursive;
   background-image: url("https://feelgoodmusicent.files.wordpress.com/2013/05/concert-smoke-stage-audience-applause-the-darkness-banner.jpg");
   text-align: center;
   height:250px;
   background-repeat: no-repeat;
   background-size: cover;
-}
-
-.jumbotron .container {
-  position:relative;
-  top:50px;
+  padding-top:20px;
+  padding-bottom:5px;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
 .post {
