@@ -1,5 +1,6 @@
 <div>
   <form>
+    <div class="light">
     <div class="form-group">
       <label for="venue">Venue</label>
       {{input value=venue id="venue"}}
@@ -19,8 +20,8 @@
       <label for="date">Date</label>
       {{input value=date id="date"}}
     </div>
-
-    <button {{action 'saveShow'}}>Add Show</button>
+</div>
+    <button class="btn btn-danger"{{action 'saveShow'}}>Add Show</button>
 
   </form>
 </div>
