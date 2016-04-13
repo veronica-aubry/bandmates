@@ -107,65 +107,22 @@
 		}
 	}],
 
-	"users": [{
-		"id": 0,
-		"name": "Veronica",
-		"image": "https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/12993581_10154182654404884_5013722575241502038_n.jpg?oh=1a21b2ae3e1335e199ddbdaa137a3eb0&oe=577EF64D",
-		"shows": {
-			"0": true,
-			"1": true
-		},
-		"active": "false"
-	},
-	{
-		"id": 1,
-		"name": "Marika",
-		"image": "https://scontent-lga3-1.xx.fbcdn.net/hphotos-xfp1/v/t1.0-9/12642590_10153421771208364_854013912588248948_n.jpg?oh=66d799b5e14fb3e537dd9ba5a51718f7&oe=5777BC70",
-		"shows": {
-			"0": true,
-			"2": true,
-			"3": true,
-			"4": true
-		},
-		"active": "false"
-	},
-	{
-		"id": 2,
-		"name": "Blake",
-		"image": "https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/10422179_10203845986415596_7157061549570258425_n.jpg?oh=d0f4f7c5a3c5de65b08e1ed0810d4ed5&oe=57754905",
-		"shows": {
-			"0": true,
-			"3": true,
-			"4": true,
-			"7": true
-		},
-		"active": "false"
-	},
-	{
-		"id": 3,
-		"name": "Mike",
-		"image": "https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/12806223_10153321749251290_9119164828112813821_n.jpg?oh=75880c8d931a9281e6deab2b09fb4ce7&oe=5784BB08",
-		"shows": {
-			"0": true,
-			"3": true,
-			"5": true,
-			"8": true
-		},
-		"active": "false"
-	},
-	{
-		"id": 4,
-		"name": "Michael <3",
-		"image": "https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/11000042_10153489142457590_3316666797086065600_n.jpg?oh=e03cf179048b8a4657127c093e44db05&oe=577DF582",
-		"shows": {
-			"0": true,
-			"1": true,
-			"2": true,
-			"5": true,
-			"7": true,
-			"9": true
-		},
-		"active": "false"
-	}]
+	"users" : {
+    "c76cd9da-08cd-4741-a4d5-5ce4ec532e1d" : {
+      "active" : true,
+      "image" : "no",
+      "name" : "veronica"
+    },
+    "deeead1d-3d38-4e61-84e7-849b1d6f56a4" : {
+      "active" : true,
+      "image" : "http://i.telegraph.co.uk/multimedia/archive/03570/potd-grass_3570487k.jpg",
+      "name" : "Marika"
+    },
+    "e587db77-cd98-4033-bd48-5b5fb77bf66c" : {
+      "active" : true,
+      "image" : "no",
+      "name" : "Veronica"
+    }
+  }
 
 }

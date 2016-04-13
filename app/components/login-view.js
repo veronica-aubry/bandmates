@@ -7,7 +7,6 @@ export default Ember.Component.extend({
         email: this.get('userEmail'),
         password: this.get('userPassword')
       };
-      console.log(params + "view")
       this.sendAction('login', params);
     }
   }

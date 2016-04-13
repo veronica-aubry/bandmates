@@ -3,7 +3,6 @@ import Ember from 'ember';
 export default Ember.Route.extend({
   actions: {
     login(params) {
-      console.log(params)
       this.get('session').open('firebase', {
            provider: 'password',
            email: params.email,
