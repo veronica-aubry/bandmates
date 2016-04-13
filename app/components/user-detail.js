@@ -8,6 +8,7 @@ export default Ember.Component.extend({
       // debugger;
       this.get('inviteMate').add(user);
       this.get('inviteMate').add(show);
-    }
+      alert("Your invite has been sent!");
+    },
   }
 });
