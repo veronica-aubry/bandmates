@@ -12,6 +12,7 @@ Router.map(function() {
   this.route('inviteList');
   this.route('invitePage');
   this.route('admin');
+  this.route('login');
 });
 
 export default Router;

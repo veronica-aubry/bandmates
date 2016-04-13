@@ -5,7 +5,10 @@ module.exports = function(environment) {
     modulePrefix: 'bandmates',
     environment: environment,
     contentSecurityPolicy: { 'connect-src': "'self' https://auth.firebase.com wss://*.firebaseio.com" },
-    firebase: 'https://bandmates.firebaseio.com/',
+    firebase: 'https://bandmates2.firebaseio.com/',
+      torii: {
+         sessionServiceName: 'session'
+       },
     baseURL: '/',
     locationType: 'auto',
     EmberENV: {
