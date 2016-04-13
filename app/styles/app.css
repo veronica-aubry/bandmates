@@ -10,6 +10,10 @@ body {
   color: #cc0000;
 }
 
+img {
+  max-width: 200px;
+}
+
 a {
   color: #215c5c;
   text-decoration: none !important;
