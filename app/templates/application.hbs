@@ -11,9 +11,8 @@
     <div class="navbar-header">
       {{#link-to 'index'}}<a class="navbar-brand">HOME</a>{{/link-to}}
 			{{#link-to 'new'}}<a class="navbar-brand">SIGN-UP</a>{{/link-to}}
-<<<<<<< HEAD
       {{#link-to 'invited'}}<a class="navbar-brand">PENDING INVITES</a>{{/link-to}}
-=======
+
 
       {{#if session.isAuthenticated}}
          <button {{action 'logout'}}>Logout</button>
@@ -23,7 +22,6 @@
 
       {{log session.currentUser}}
 
->>>>>>> master
     </div>
     <div class="pull-right">
       {{#link-to 'admin'}}<a class="navbar-brand">Admin</a>{{/link-to}}

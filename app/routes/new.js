@@ -28,8 +28,9 @@ export default Ember.Route.extend({
             .then(function(){
               _this.transitionTo('index');
             });
+          });
         }
-     });
+      })
     }
   }
 });
