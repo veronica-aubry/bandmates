@@ -6,6 +6,14 @@ body {
   background-size: cover;
 }
 
+nav {
+  margin-top: -30px;
+}
+
+img {
+  max-width: 200px;
+}
+
 a {
   color: #215c5c;
   text-decoration: none !important;
