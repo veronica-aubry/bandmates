@@ -11,6 +11,7 @@ Router.map(function() {
   this.route('show', {path: '/show/:show_id'});
   this.route('inviteList');
   this.route('invitePage');
+  this.route('admin');
 });
 
 export default Router;
