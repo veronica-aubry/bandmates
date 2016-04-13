@@ -10,6 +10,16 @@
       {{input value=image id="image" placeholder="Your Image"}}
     </div>
 
+    <div class="form-group">
+      <label for="email">Email</label>
+      {{input value=userEmail id="email" placeholder="Email address"}}
+    </div>
+
+    <div class="form-group">
+      <label for="password">Password</label>
+      {{input type="password" value=userPassword id="password" placeholder="Password"}}
+    </div>
+
     <button {{action 'saveUser'}}>Create New User</button>
  </form>
 </div>

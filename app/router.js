@@ -11,6 +11,7 @@ Router.map(function() {
   this.route('show', {path: '/show/:show_id'});
   this.route('admin');
   this.route('invited');
+  this.route('login');
 });
 
 export default Router;
