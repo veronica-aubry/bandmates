@@ -49,6 +49,11 @@ footer {
   color: black !important;
 }
 
+.navbar {
+  margin:5px; 
+  padding:5px; 
+}
+
 .jumbotron {
   font-family: 'Permanent Marker', cursive;
   background-image: url("https://feelgoodmusicent.files.wordpress.com/2013/05/concert-smoke-stage-audience-applause-the-darkness-banner.jpg");
