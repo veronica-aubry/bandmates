@@ -3,6 +3,7 @@
 		"id": 0,
 		"venue": "Crystal Ballroom",
 		"band": "Beach House",
+		"image": "https://consequenceofsound.files.wordpress.com/2015/07/beach-house-sparks-new-listen.jpg",
 		"date": "04-18",
 		"attendees": {
 			"0": true,
@@ -15,6 +16,7 @@
 	}, {
 		"id": 1,
 		"venue": "Crystal Ballroom",
+		"image": "http://www.grcmc.org/images/uploads/img1458321238192-168-1-139.jpg",
 		"band": "Santigold",
 		"date": "05-10",
 		"attendees": {
@@ -25,6 +27,7 @@
 	}, {
 		"id": 2,
 		"venue": "Crystal Ballroom",
+		"image": "http://images.rapgenius.com/2483896093f64dbea4bee368063a6a6e.1000x563x1.jpg",
 		"band": "Silversun Pickups",
 		"date": "05-11",
 		"attendees": {
@@ -35,6 +38,7 @@
 	}, {
 		"id": 3,
 		"venue": "Wonder Ballroom",
+		"image": "http://images.popmatters.com/music_cover_art/b/bobmould-lifeandtimes-splash.jpg",
 		"band": "Bob Mould",
 		"date": "06-07",
 		"attendees": {
@@ -46,6 +50,7 @@
 	}, {
 		"id": 4,
 		"venue": "Wonder Ballroom",
+		"image": "http://lightning100.com/wp-content/uploads/2016/02/04.02-Nada-Surf-@-Metro.jpg",
 		"band": "Nada Surf",
 		"date": "05-19",
 		"attendees": {
@@ -55,6 +60,7 @@
 	}, {
 		"id": 5,
 		"venue": "Wonder Ballroom",
+		"image": "http://img.metro.co.uk/i/pix/2007/11/Yeasayer_450x300.jpg",
 		"band": "Yeasayer",
 		"date": "05-29",
 		"attendees": {
@@ -65,12 +71,14 @@
 	}, {
 		"id": 6,
 		"venue": "Doug Fir",
+		"image": "http://byt.wpengine.netdna-cdn.com/wp-content/uploads/2010/11/bmwilderness3.jpg",
 		"band": "Black Mountain",
 		"date": "04-23"
 
 	}, {
 		"id": 7,
 		"venue": "Doug Fir",
+		"image": "http://deadoceans.com/_resources/artist_large/bleached_large.jpg",
 		"band": "Bleached",
 		"date": "04-30",
 		"attendees": {
@@ -81,6 +89,7 @@
 	}, {
 		"id": 8,
 		"venue": "Roseland",
+		"image": "http://d1ya1fm0bicxg1.cloudfront.net/2016/01/80658951-16-optimized_5686e4647bb4b.jpg",
 		"band": "Purity Ring",
 		"date": "05-27",
 		"attendees": {
@@ -90,6 +99,7 @@
 	}, {
 		"id": 9,
 		"venue": "Roseland",
+		"image": "https://upload.wikimedia.org/wikipedia/commons/f/f5/M83_mp3h1704.jpg",
 		"band": "M83",
 		"date": "04-25",
 		"attendees": {
