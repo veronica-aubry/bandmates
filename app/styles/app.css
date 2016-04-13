@@ -10,6 +10,13 @@ body {
   color: #cc0000;
 }
 
+.white {
+  color: #f2f2f2;
+}
+
+.green {
+  color: #5dd7b4;
+}
 img {
   max-width: 200px;
 }
