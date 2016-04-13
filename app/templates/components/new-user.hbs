@@ -1,5 +1,6 @@
 <div>
   <form>
+  <div class="light">
     <div class="form-group">
      <label for="name">Name</label>
      {{input value=name id="name" placeholder="Your Name"}}
@@ -19,7 +20,7 @@
       <label for="password">Password</label>
       {{input type="password" value=userPassword id="password" placeholder="Password"}}
     </div>
-
-    <button {{action 'saveUser'}}>Create New User</button>
+  </div>
+    <button class="btn btn-danger"{{action 'saveUser'}}>Create New User</button>
  </form>
 </div>
