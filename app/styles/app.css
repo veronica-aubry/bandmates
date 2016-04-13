@@ -4,6 +4,7 @@ body {
   background-image: url("http://www.skotcher.com/wall/f300b886a001ea4237a18522a7f91d51/amp-amplifier-bw-knobs-macro.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 .light {
