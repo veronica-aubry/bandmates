@@ -14,7 +14,6 @@ export default Ember.Route.extend({
   },
   actions: {
     addToUserShows(user, show) {
-      console.log(user.shows);
       show.get('attendees').addObject(user);
       show.save();
 
