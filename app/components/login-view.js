@@ -8,6 +8,7 @@ export default Ember.Component.extend({
         password: this.get('userPassword')
       };
       this.sendAction('login', params);
+      // debugger;
     }
   }
 });
