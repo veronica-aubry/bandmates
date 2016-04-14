@@ -1,7 +1,8 @@
-{{#each inviteMate.bandMates as |bandMate|}}
-  <p>{{bandMate.name}}</p>
-{{/each}}
 
-{{#each inviteMate.bandMates as |bandMate|}}
-  <p>{{bandMate.band}} {{bandMate.date}}</p>
-{{/each}}
+	{{#each inviteMate.bandMates as |bandMate|}}
+	  <div class="postdetail">
+	    {{bandMate.name}}
+	    {{bandMate.band}}
+	    {{bandMate.date}}
+	  </div>
+	{{/each}}
