@@ -1,11 +1,14 @@
 import Ember from 'ember';
 
-export function currentUserCheck(params, session) {
-  var userId = params[0].get('uid');
+export function currentUserCheck(params) {
+  // var userId = params[0].id;
+  // var session = params[1].uid;
 
-  if (userId === session.uid) {
-    return true;
+  // console.log(session);
+  console.log(params[0]);
+  console.log(params[1]);
+
   }
-}
+
 
 export default Ember.Helper.helper(currentUserCheck);
