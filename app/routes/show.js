@@ -11,5 +11,14 @@ export default Ember.Route.extend({
       show: this.store.findRecord('show', params.show_id),
       user: this.store.find('user', this.get('session').get('uid'))
     });
+  },
+  actions: {
+    addToUserShows(user, show) {
+      user.get('shows').addObject(show);
+
+      user.save();
+      console.log(user.shows);
+      this.transitionTo('index');
+    }
   }
 });
