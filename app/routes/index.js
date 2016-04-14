@@ -19,7 +19,8 @@ export default Ember.Route.extend({
   },
   model() {
     return Ember.RSVP.hash({
-      shows: this.store.findAll('show')
+      shows: this.store.findAll('show'),
+      user: this.store.find('user', this.get('session').get('uid'))
     })
   }
 });
