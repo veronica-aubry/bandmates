@@ -3,6 +3,20 @@
 		<h2>{{show.band}}</h2>
 		<hr>
 		<img src={{show.image}}>
-		<h3>at the {{show.venue}}
-		on {{show.date}}</h3>
+		<h4>at the {{show.venue}}
+		on {{show.date}}-2016</h4>
+
+    <button class="btn" {{action 'addToUserShows' user show}}>I'm Going!</button>
+	</div>
+</div>
+
+<div class="attendees">
+  {{#each attendees as |attendee|}}
+    {{#link-to 'user' attendee.id}}
+      <div class="matchTile">
+        <img src="{{attendee.image}}">
+        <p>{{attendee.name}}</p>
+      </div>
+    {{/link-to}}
+  {{/each}}
 </div>
