@@ -7,8 +7,16 @@ body {
   background-attachment: fixed;
 }
 
-.container {
+.main {
+  color: #FFED7A;
+}
 
+.white {
+  color: #C9FFF0;
+}
+
+.subhead {
+  color: white;
 }
 
 .light {
@@ -22,6 +30,7 @@ body {
 .green {
   color: #5dd7b4;
 }
+
 img {
   max-width: 200px;
 }
@@ -41,8 +50,13 @@ footer {
 }
 
 .navbar-brand {
-  font-family: 'Montserrat', sans-serif;;
+  font-family: 'Montserrat', sans-serif;
   color: #cc0000 !important;
+}
+
+.submission { 
+  width: 190px; 
+  height: 190px; 
 }
 
 .navbar-brand:hover{
@@ -50,19 +64,17 @@ footer {
 }
 
 .navbar {
-  margin:5px; 
-  padding:5px; 
+  padding-bottom:13px; 
 }
 
 .jumbotron {
   font-family: 'Permanent Marker', cursive;
-  background-image: url("https://feelgoodmusicent.files.wordpress.com/2013/05/concert-smoke-stage-audience-applause-the-darkness-banner.jpg");
+  background-image: url("http://intertwitter.com/wp-content/uploads/2012/12/facebook-fans-rave.jpg");
   text-align: center;
-  height:250px;
+  height:240px;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top:20px;
-  padding-bottom:5px;
+  padding-top:16px;
   margin-bottom: 0;
   padding-bottom: 0;
 }
@@ -73,7 +85,37 @@ footer {
   padding: 15px;
   margin: 5px;
   width: 350px;
-  height: 300px;
+  height: 350px;
+  float: left;
+}
+
+.postlogin {
+  background:rgba(255,255,255,0.5);
+  border-radius: 20px;
+  padding: 15px;
+  margin: 5px;
+  width: 200px;
+  height: 150px;
+  float: left;
+}
+
+.postadmin {
+  background:rgba(255,255,255,0.5);
+  border-radius: 20px;
+  padding: 15px;
+  margin: 5px;
+  width: 300px;
+  height: 250px;
+  float: left;
+}
+
+.postsignup {
+  background:rgba(255,255,255,0.5);
+  border-radius: 20px;
+  padding: 15px;
+  margin: 5px;
+  width: 300px;
+  height: 320px;
   float: left;
 }
 

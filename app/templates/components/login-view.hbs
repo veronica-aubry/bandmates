@@ -1,7 +1,11 @@
-<p>
+<div class="postlogin">
   <form>
-    {{input value=userEmail placeholder="Email"}}<br>
-    {{input type="password" value=userPassword placeholder="Password"}}<br>
-    <button {{action "login"}}> Login </button>
+    <div class="form-group">
+    {{input value=userEmail placeholder="Email"}}
+    </div>
+    <div class="form-group">
+    {{input type="password" value=userPassword placeholder="Password"}}
+    </div>
+    <button class="btn btn-danger"{{action "login"}}> Login </button>
   </form>
-</p>
+</div>

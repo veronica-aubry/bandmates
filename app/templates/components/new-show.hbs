@@ -1,27 +1,26 @@
-<div>
+<div class="postadmin">
   <form>
     <div class="light">
     <div class="form-group">
       <label for="venue">Venue</label>
-      {{input value=venue id="venue"}}
+      {{input value=venue id="venue" placeholder="Venue"}}
     </div>
 
     <div class="form-group">
       <label for="band">Band</label>
-      {{input value=band id="band"}}
+      {{input value=band id="band" placeholder="Band"}}
     </div>
 
     <div class="form-group">
       <label for="image">Image</label>
-      {{input value=image id="image"}}
+      {{input value=image id="image" placeholder="Image"}}
     </div>
 
     <div class="form-group">
       <label for="date">Date</label>
-      {{input value=date id="date"}}
+      {{input value=date id="date" placeholder="Date"}}
     </div>
-</div>
-    <button class="btn btn-danger"{{action 'saveShow'}}>Add Show</button>
-
+    </div>
+    <a class="navbar-brand"><button class="btn btn-danger"{{action 'saveShow'}}>Add Show</button></a>
   </form>
 </div>
