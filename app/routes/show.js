@@ -9,8 +9,7 @@ export default Ember.Route.extend({
   model(params) {
     return Ember.RSVP.hash({
       show: this.store.findRecord('show', params.show_id),
-      user: this.store.find('user', this.get('session').get('uid')),
-      attendees: this.store.findRecord('show', params.show_id, params.attendees)
+      user: this.store.find('user', this.get('session').get('uid'))
     });
   }
 });

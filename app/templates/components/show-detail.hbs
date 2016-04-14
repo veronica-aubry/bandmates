@@ -6,3 +6,14 @@
 		on {{show.date}}-2016</h4>
 	</div>
 </div>
+
+<div class="attendees">
+  {{#each attendees as |attendee|}}
+    {{#link-to 'user' attendee.id}}
+      <div class="matchTile">
+        <img src="{{attendee.image}}">
+        <p>{{attendee.name}}</p>
+      </div>
+    {{/link-to}}
+  {{/each}}
+</div>
