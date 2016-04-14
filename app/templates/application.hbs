@@ -1,7 +1,9 @@
 <div class="jumbotron">
   <div class="container">
-  <h1>Bandmates</h1>
-  <div class="light">
+  <div class= "main">
+    <h1>Bandmates</h1>
+  </div>
+  <div class="white">
    <h3>Your Shows, Your People</h3>
   </div>
   </div>
@@ -9,19 +11,19 @@
 <nav class="navbar navbar-default">
   <div class="container-fluid">
     <div class="navbar-header">
-      {{#link-to 'index'}}<a class="navbar-brand">HOME</a>{{/link-to}}
-			{{#link-to 'new'}}<a class="navbar-brand">SIGN-UP</a>{{/link-to}}
+      {{#link-to 'index'}}<a class="navbar-brand"><button class="btn">HOME</button></a>{{/link-to}}
+			{{#link-to 'new'}}<a class="navbar-brand"><button class="btn">SIGN-UP</button></a>{{/link-to}}
       {{#if session.isAuthenticated}}
-         <button {{action 'logout'}}>Logout</button>
+         <a class="navbar-brand"><button class="btn"{{action 'logout'}}>LOGOUT</button></a>
       {{else}}
-         {{#link-to 'login'}}<a class="navbar-brand">SIGN IN</a>{{/link-to}}
+         {{#link-to 'login'}}<a class="navbar-brand"><button class="btn">SIGN-IN</button></a>{{/link-to}}
       {{/if}}
-        {{#link-to 'invited'}}<a class="navbar-brand">PENDING INVITES</a>{{/link-to}}
+        {{#link-to 'invited'}}<a class="navbar-brand"><button class="btn">PENDING INVITES</button></a>{{/link-to}}
       {{log session.currentUser}}
 
     </div>
     <div class="pull-right">
-      {{#link-to 'admin'}}<a class="navbar-brand">Admin</a>{{/link-to}}
+      {{#link-to 'admin'}}<a class="navbar-brand"><button class="btn">ADMIN</button></a>{{/link-to}}
     </div>
   </div>
 </nav>
