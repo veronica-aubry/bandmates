@@ -85,7 +85,7 @@ footer {
   padding: 15px;
   margin: 5px;
   width: 350px;
-  height: 350px;
+  height: auto;
   float: left;
 }
 
@@ -95,7 +95,7 @@ footer {
   padding: 15px;
   margin: 5px;
   width: 200px;
-  height: 150px;
+  height: auto;
   float: left;
 }
 
@@ -105,7 +105,7 @@ footer {
   padding: 15px;
   margin: 5px;
   width: 300px;
-  height: 250px;
+  height: auto;
   float: left;
 }
 
@@ -115,11 +115,21 @@ footer {
   padding: 15px;
   margin: 5px;
   width: 300px;
-  height: 320px;
+  height: auto;
   float: left;
 }
 
 .matchTile img {
   width: 150px;
   height: 150px;
+}
+
+.attendees {
+  background:rgba(255,255,255,0.5);
+  border-radius: 20px;
+  padding: 15px;
+  margin: 5px;
+  width: 185px;
+  height: auto;
+  float: left;
 }
