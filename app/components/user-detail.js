@@ -5,7 +5,6 @@ export default Ember.Component.extend({
 
   actions: {
     addBandMate(user, show) {
-      // debugger;
       this.get('inviteMate').add(user);
       this.get('inviteMate').add(show);
       alert("Your invite has been sent!");
