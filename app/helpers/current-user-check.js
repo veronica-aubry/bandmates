@@ -1,14 +1,14 @@
 import Ember from 'ember';
 
 export function currentUserCheck(params) {
-  // var userId = params[0].id;
-  // var session = params[1].uid;
+  var userId = params[0].id;
+  var activeUserId = params[1].id;
 
-  // console.log(session);
-  console.log(params[0]);
-  console.log(params[1]);
-
+  if (userId !== activeUserId) {
+    return Ember.String.htmlSafe("<button class='btn' {{action 'addBandMate' user show}}>Invite this bandmate</button>"); 
   }
+
+}
 
 
 export default Ember.Helper.helper(currentUserCheck);

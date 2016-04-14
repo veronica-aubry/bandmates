@@ -7,11 +7,12 @@
     <h1>This Is The User Page For {{user.name}}.</h1>
 
     These are the shows that {{user.name}} has/will attend:
+
     {{#each user.shows as |show|}}
 
       <p>{{#link-to 'show' show.id}}{{show.band}} - {{show.date}}{{/link-to}}</p>
 
-        <button class="btn" {{action 'addBandMate' user show}}>Invite this bandmate</button>
+      {{current-user-check user activeUser}}
 
     {{/each}}
   </div>
