@@ -7,7 +7,11 @@ body {
   background-attachment: fixed;
 }
 
-.header {
+.main {
+  color: #FFED7A;
+}
+
+.white {
   color: #C9FFF0;
 }
 
@@ -60,7 +64,7 @@ footer {
 }
 
 .navbar {
-  padding-bottom:13px; 
+  padding-bottom:12px; 
 }
 
 .jumbotron {
@@ -81,17 +85,27 @@ footer {
   padding: 15px;
   margin: 5px;
   width: 350px;
-  height: 300px;
+  height: 350px;
   float: left;
 }
 
-.textpost {
+.postlogin {
   background:rgba(255,255,255,0.5);
   border-radius: 20px;
   padding: 15px;
   margin: 5px;
-  width: 350px;
-  height: 260px;
+  width: 200px;
+  height: 150px;
+  float: left;
+}
+
+.postadmin {
+  background:rgba(255,255,255,0.5);
+  border-radius: 20px;
+  padding: 15px;
+  margin: 5px;
+  width: 300px;
+  height: 240px;
   float: left;
 }
 
