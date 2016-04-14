@@ -11,11 +11,7 @@
 
       <p>{{#link-to 'show' show.id}}{{show.band}} - {{show.date}}{{/link-to}}</p>
 
-      {{#if currentUserCheck}}
-
         <button class="btn" {{action 'addBandMate' user show}}>Invite this bandmate</button>
-
-      {{/if}}
 
     {{/each}}
   </div>

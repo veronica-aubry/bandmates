@@ -15,13 +15,13 @@
       {{#link-to 'index'}}<a class="navbar-brand"><button class="btn">HOME</button></a>{{/link-to}}
 
       {{#if session.isAuthenticated}}
-         <a class="navbar-brand"><button class="btn"{{action 'logout'}}>LOGOUT</button></a>
+
+        <a class="navbar-brand"><button class="btn"{{action 'logout'}}>LOGOUT</button></a>
 
       {{else}}
 
         {{#link-to 'new'}}<a class="navbar-brand"><button class="btn">SIGN-UP</button></a>{{/link-to}}
-
-         {{#link-to 'login'}}<a class="navbar-brand"><button class="btn">SIGN IN</button></a>{{/link-to}}
+        {{#link-to 'login'}}<a class="navbar-brand"><button class="btn">SIGN IN</button></a>{{/link-to}}
 
       {{/if}}
 
@@ -36,7 +36,7 @@
   </div>
 </nav>
 	<div class="container">
-			{{outlet}}
+		{{outlet}}
 	</div>
 <div class="light">
   <footer>&#169; Veronica, Blake, Mike, and Marika</footer>
