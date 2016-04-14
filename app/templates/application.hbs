@@ -18,9 +18,11 @@
          <a class="navbar-brand"><button class="btn"{{action 'logout'}}>LOGOUT</button></a>
 
       {{else}}
+
         {{#link-to 'new'}}<a class="navbar-brand"><button class="btn">SIGN-UP</button></a>{{/link-to}}
 
          {{#link-to 'login'}}<a class="navbar-brand"><button class="btn">SIGN IN</button></a>{{/link-to}}
+
       {{/if}}
 
         {{#link-to 'invited'}}<a class="navbar-brand"><button class="btn">PENDING INVITES</button></a>{{/link-to}}
