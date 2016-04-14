@@ -1,10 +1,12 @@
 <div class="white">
   <h3>Show Details:</h3>
 </div>
-{{show-detail show=model}}
+{{show-detail show=model.show}}
 
 <hr/>
 
-{{#each model.attendees as |attendee|}}
-  {{match-tile match=attendee}}
-{{/each}}
+<div class="attendees">
+  {{#each model.attendees as |attendee|}}
+    {{match-tile match=attendee}}
+  {{/each}}
+</div>
