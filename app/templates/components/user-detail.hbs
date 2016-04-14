@@ -8,9 +8,16 @@
 
     These are the shows that {{user.name}} has/will attend:
     {{#each user.shows as |show|}}
+
       <p>{{#link-to 'show' show.id}}{{show.band}} - {{show.date}}{{/link-to}}</p>
-      <button class="btn" {{action 'addBandMate' user show}}>Invite this bandmate</button>
+
+      {{#if currentUserCheck}}
+
+        <button class="btn" {{action 'addBandMate' user show}}>Invite this bandmate</button>
+
+      {{/if}}
+
     {{/each}}
-  </div> 
+  </div>
 </div>
 </div>

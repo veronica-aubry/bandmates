@@ -1,11 +1,15 @@
 <div class="postlogin">
   <form>
+
     <div class="form-group">
-    {{input value=userEmail placeholder="Email"}}
+      {{input value=userEmail placeholder="Email"}}
     </div>
+
     <div class="form-group">
-    {{input type="password" value=userPassword placeholder="Password"}}
+      {{input type="password" value=userPassword placeholder="Password"}}
     </div>
-    <button class="btn btn-danger"{{action "login"}}> Login </button>
+
+    <button class="btn btn-danger" {{action 'login' }}> Login </button>
+
   </form>
 </div>
