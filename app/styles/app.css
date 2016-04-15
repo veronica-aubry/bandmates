@@ -7,6 +7,11 @@ body {
   background-attachment: fixed;
 }
 
+.title {
+  font-family: 'Permanent Marker', cursive;
+  color: #cc0000;
+}
+
 .main {
   color: #FFED7A;
 }
