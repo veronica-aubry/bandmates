@@ -1,6 +1,6 @@
 <h2>Your Inbox</h2>
 {{#each user.sent as |sent|}}
-<h5>{{sent.sender.name}}</h5>
+Message from: {{#link-to 'user' sender.id}}{{sent.sender.name}}{{/link-to}}
 <p>{{sent.body}}</p>
 {{/each}}
 

@@ -55,9 +55,9 @@ footer {
   color: #cc0000 !important;
 }
 
-.submission { 
-  width: 190px; 
-  height: 190px; 
+.submission {
+  width: 190px;
+  height: 190px;
 }
 
 .navbar-brand:hover{
@@ -65,7 +65,7 @@ footer {
 }
 
 .navbar {
-  padding-bottom:13px; 
+  padding-bottom:13px;
 }
 
 .jumbotron {
@@ -163,4 +163,10 @@ footer {
   width: 185px;
   height: auto;
   float: left;
+}
+
+.inbox {
+  background:rgba(255,255,255,0.5);
+  border-radius: 20px;
+  padding: 15px;
 }
