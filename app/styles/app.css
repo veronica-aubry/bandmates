@@ -7,12 +7,13 @@ body {
   background-attachment: fixed;
 }
 
-.main {
-  color: #FFED7A;
+.title {
+  font-family: 'Permanent Marker', cursive;
+  color: #cc0000;
 }
 
-.white {
-  color: #C9FFF0;
+.main {
+  color: #FFED7A;
 }
 
 .subhead {
@@ -95,6 +96,16 @@ footer {
   padding: 15px;
   margin: 5px;
   width: 350px;
+  height: auto;
+  float: left;
+}
+
+.postinvite {
+  background:rgba(255,255,255,0.5);
+  border-radius: 20px;
+  padding: 15px;
+  margin: 5px;
+  width: 50%;
   height: auto;
   float: left;
 }
