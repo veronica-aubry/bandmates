@@ -6,7 +6,7 @@
 		<h4>at the {{show.venue}}
 		on {{show.date}}-2016</h4>
 
-    <button class="btn" {{action 'addToUserShows' user show}}>I'm Going!</button>
+    <button class="btn btn-success" {{action 'addToUserShows' user show}}>I'm Going!</button>
 	</div>
 </div>
 
@@ -15,7 +15,7 @@
     {{#link-to 'user' attendee.id}}
       <div class="matchTile">
         <img src="{{attendee.image}}">
-        <p>{{attendee.name}}</p>
+        <h4>{{attendee.name}}</h4>
       </div>
     {{/link-to}}
   {{/each}}

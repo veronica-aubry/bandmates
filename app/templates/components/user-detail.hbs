@@ -10,7 +10,7 @@
 
     {{#each user.shows as |show|}}
 
-      <p>{{#link-to 'show' show.id}}{{show.band}} - {{show.date}}{{/link-to}}</p>
+      <h4>{{#link-to 'show' show.id}}{{show.band}} - {{show.date}}{{/link-to}}</h4>
 
 
         <span style="{{currentUserCheck user activeUser}}"><button class="btn btn-info"{{action 'addBandMate' user show}}>Invite This Bandmate</button></span>
