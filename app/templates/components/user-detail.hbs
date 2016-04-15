@@ -4,16 +4,18 @@
     <img src="{{user.image}}" alt="{{user.name}}" />
   </div>
   <div class="col-md-6">
-    <h1>This Is The User Page For {{user.name}}.</h1>
+    <h2>This Is The User Page For {{user.name}}.</h2>
 
-    These are the shows that {{user.name}} has/will attend:
+    <h4>These are the shows that {{user.name}} has/will attend:</h4>
 
     {{#each user.shows as |show|}}
 
-      <p>{{#link-to 'show' show.id}}{{show.band}} - {{show.date}}{{/link-to}}</p>
+      <h4>{{#link-to 'show' show.id}}{{show.band}} - {{show.date}}{{/link-to}}</h4>
+
 
 
         <span style="{{currentUserCheck user activeUser}}">{{#link-to 'messages' user.id}}Invite this bandmate{{/link-to}}</span>
+
 
 
     {{/each}}
