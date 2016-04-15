@@ -1,7 +1,7 @@
 <h2>Your Inbox</h2>
 {{#each user.sent as |sent|}}
-<h5>{{message.sender.name}}</h5>
-<p>{{message.body}}</p>
+<h5>{{sent.sender.name}}</h5>
+<p>{{sent.body}}</p>
 {{/each}}
 
 
