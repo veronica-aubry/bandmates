@@ -1,0 +1,13 @@
+<h2>Your Inbox</h2>
+{{#each user.sent as |sent|}}
+<h5>{{message.sender.name}}</h5>
+<p>{{message.body}}</p>
+{{/each}}
+
+
+
+<h2>Your Sent Messages</h2>
+{{#each user.inbox as |message|}}
+<h5>{{message.recipient.name}}</h5>
+  <p>{{message.body}}</p>
+{{/each}}

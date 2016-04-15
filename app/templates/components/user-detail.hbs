@@ -8,7 +8,17 @@
     <h4>These are the shows that {{user.name}} has/will attend:</h4>
     {{#each user.shows as |show|}}
       <h4>{{#link-to 'show' show.id}}{{show.band}} - {{show.date}}{{/link-to}}</h4>
+<<<<<<< HEAD
         <span style="{{currentUserCheck user activeUser}}"><button class="btn btn-info"{{action 'addBandMate' user show}}>Invite This Bandmate</button></span>
+=======
+
+
+
+        <span style="{{currentUserCheck user activeUser}}">{{#link-to 'messages' user.id}}Invite this bandmate{{/link-to}}</span>
+
+
+
+>>>>>>> master
     {{/each}}
   </div>
 </div>

@@ -3,7 +3,7 @@ import Ember from 'ember';
 export default Ember.Route.extend({
   beforeModel() {
     if (!this.get('session').get('uid')) {
-      this.transitionTo('login')
+      this.transitionTo('login');
     }
   },
   model(params) {
