@@ -1,12 +1,10 @@
-
-
-	{{#each inviteMate.bandMates as |bandMate|}}
-    <div class="postinvite">
-    	<div class="light">
-		 	  {{bandMate.name}}
-			</div>
-		 	{{bandMate.band}}
-		  {{bandMate.date}}
+{{#each inviteMate.bandMates as |bandMate|}}
+  <div class="postinvite">
+  	<div class="light">
+	 	  {{bandMate.name}}
 		</div>
-	{{/each}}
+	 	{{bandMate.band}}
+	  {{bandMate.date}}
+	</div>
+{{/each}}
 
