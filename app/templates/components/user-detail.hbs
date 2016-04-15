@@ -13,7 +13,7 @@
       <p>{{#link-to 'show' show.id}}{{show.band}} - {{show.date}}{{/link-to}}</p>
 
 
-        <span style="{{currentUserCheck user activeUser}}"><button class="btn" {{action 'addBandMate' user show}}>Invite this bandmate</button></span>
+        <span style="{{currentUserCheck user activeUser}}">{{#link-to 'messages' user.id}}Invite this bandmate{{/link-to}}</span>
 
 
     {{/each}}

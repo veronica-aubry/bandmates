@@ -12,6 +12,8 @@ Router.map(function() {
   this.route('admin');
   this.route('invited');
   this.route('login');
+  this.route('inbox');
+  this.route('messages', {path: '/user/:user_id/messages'});
 });
 
 export default Router;

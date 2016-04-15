@@ -1,0 +1,11 @@
+<div class="postsignup">
+  <form>
+    <div class="light">
+      <div class="form-group">
+      <label for="body">Type message here</label>
+        {{textarea value=body id="body" placeholder="Your Message"}}
+      </div>
+    </div>
+    </form>
+      <a class="navbar-brand"><button class="btn btn-danger"{{action 'sendMessage' sender recipient}}>Send Message</button></a>
+</div>
