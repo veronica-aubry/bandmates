@@ -1,14 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
 body {
   height: 100%;
-  font-family: 'Kreon', serif;
-  background-image: url("http://www.skotcher.com/wall/f300b886a001ea4237a18522a7f91d51/amp-amplifier-bw-knobs-macro.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
+  font-family: 'Open Sans', serif;
 }
 
 .title {
-  font-family: 'Permanent Marker', cursive;
+  font-family: 'Open Sans', cursive;
   color: #cc0000;
 }
 
@@ -30,10 +28,6 @@ body {
 
 .green {
   color: #5dd7b4;
-}
-
-img {
-  max-width: 200px;
 }
 
 a {
@@ -68,26 +62,22 @@ footer {
   padding-bottom:13px;
 }
 
-.jumbotron {
-  font-family: 'Permanent Marker', cursive;
-  background-image: url("http://intertwitter.com/wp-content/uploads/2012/12/facebook-fans-rave.jpg");
-  text-align: center;
-  height:240px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding-top:16px;
-  margin-bottom: 0;
-  padding-bottom: 0;
-}
-
 .post {
-  background:rgba(255,255,255,0.5);
-  border-radius: 20px;
   padding: 15px;
   margin: 5px;
   width: 350px;
-  height: 330px;
+  height: 100px;
   float: left;
+}
+
+.post img {
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+}
+
+.showlink {
+  font-size: 20px;
 }
 
 .postdetail {

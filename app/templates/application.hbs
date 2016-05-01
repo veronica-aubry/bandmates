@@ -1,22 +1,15 @@
-<div class="jumbotron">
-  <div class="container">
-  <div class= "main">
-    <h1>Bandmates</h1>
-  </div>
-  <div class="white">
-   <h3>Your Shows, Your People</h3>
-  </div>
-</div>
-</div>
 <nav class="navbar navbar-default">
   <div class="container-fluid">
     <div class="navbar-header">
 
-      {{#link-to 'index'}}<a class="navbar-brand"><button class="btn">HOME</button></a>{{/link-to}}
-
       {{#if session.isAuthenticated}}
 
         <a class="navbar-brand"><button class="btn"{{action 'logout'}}>LOGOUT</button></a>
+        {{#link-to 'inbox'}}<a class="navbar-brand"><button class="btn">INBOX</button></a>{{/link-to}}
+
+    <div class="pull-right">
+      {{#link-to 'admin'}}<a class="navbar-brand"><button class="btn">ADMIN</button></a>{{/link-to}}
+    </div>
 
       {{else}}
 
@@ -25,16 +18,10 @@
 
       {{/if}}
 
+    </div>
+
         <!-- {{#link-to 'invited'}}<a class="navbar-brand"><button class="btn">PENDING INVITES</button></a>{{/link-to}} -->
 
-        {{#link-to 'inbox'}}<a class="navbar-brand"><button class="btn">INBOX</button></a>{{/link-to}}
-
-      {{log session.currentUser}}
-
-    </div>
-    <div class="pull-right">
-      {{#link-to 'admin'}}<a class="navbar-brand"><button class="btn">ADMIN</button></a>{{/link-to}}
-    </div>
   </div>
 </nav>
 	<div class="container">

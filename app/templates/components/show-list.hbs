@@ -1,7 +1,11 @@
 {{#each sortedShows as |show|}}
   <div class="post">
-    <h2>{{#link-to 'show' show.id}}{{show.date}} | {{show.band}}{{/link-to}}</h2>
-    <hr>
   	<img src={{show.image}}>
+    <span class="showlink">
+      {{#link-to 'show' show.id}}
+      {{show.band}}
+      {{show.date}}
+      {{/link-to}}
+    </span>
   </div>
 {{/each}}
