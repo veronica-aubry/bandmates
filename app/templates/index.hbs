@@ -1,7 +1,20 @@
 <div class="container">
-  <div class="title">
-    <center><h3>Hey, {{model.user.name}}!</h3>
-    <p>Here are some upcoming shows in your area.</p></center>
+  <div class="row">
+    <div class="col-md-6">
+      <div class="title">
+        <center><h3>Hey, {{model.user.name}}!</h3>
+        <p>Here are some upcoming shows in your area.</p></center>
+      </div>
+
+      {{show-list model=model.shows}}
+    </div>
+    <div class="col-md-6">
+      <div class="title">
+      <center>
+        <h3>Your People</h3>
+        <p>You have a show in common!</p>
+      </center>
+     </div>
+   </div>
   </div>
-  {{show-list model=model.shows}}
 </div>
